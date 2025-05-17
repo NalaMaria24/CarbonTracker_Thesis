@@ -1,2 +1,2 @@
-# CarbonTracker_Thesis
-Versión modificada de CarbonTracker con soporte para ejecución multiescenario, exportación en CSV, visualización automática y ajuste dinámico de PUE e intensidad de carbono. Diseñada para evaluar el impacto ambiental de cargas computacionales en biología computacional.
+#Carbon Tracker 
+Se usa como componente activo en un script en el que se realizan proyeccione detalladas con datos en tiempo real, para obtener el costo energético y de huella de carbono de un algoritmo, como medio para detemrinar la viabilidad y el impacto del algoritmo en determinada cantidad e tiempo.
