@@ -32,7 +32,7 @@ Es script permite al usuario:
 4. **Salida CSV:** Archivos detallados con varibales calve por país y época.
 5. **Ranking Global:** Clasifica países po su intensidad de carbono proyectada.
 
---
+---
 
 ## Estructura de Salida
 
@@ -40,4 +40,22 @@ Tras la ejecución, se genera:
 - consolidated_carbon_tracking_results.csv: resumen por país y época.
 - *.png: gráficos de comparación energética y de huella de carbono.
 - base_it_tracking_logs/: logs de CarbonTracker por época.
+
+---
+
+## Personalización
+
+Modificar los siguientes parámetros en el script según la necesidad: 
+- BASE_OUTPUT_DIR: Ubicación de donde se van a gaurdar los resultados.
+- GLOBAL_EVAL_LOCATIONS: Países a Evaluar.
+- ANIO_OBJETIVO_DATOS: Año para proyectar la intensidad de carbono.
+- run_carbon_tracking(): Sustituir el modelo del ejemplo por el código que se desea analizar.
+
+---
+
+## Limitaciones
+
+- no incluye emisiones por ciclo de vida completo.
+- La precisión depende del modelo usado y de los datos energéticos del país.
+- No usa EletricityMaps para la medición en tiempo real.
 
